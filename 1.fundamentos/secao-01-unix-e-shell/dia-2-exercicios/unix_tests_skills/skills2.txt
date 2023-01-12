@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+DOM
+Javascript
+Frontend
+Backend
+DEV
