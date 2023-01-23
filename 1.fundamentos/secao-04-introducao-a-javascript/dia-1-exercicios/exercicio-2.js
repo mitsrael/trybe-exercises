@@ -1,8 +1,8 @@
-const numberOne = 454;
-const numberTwo = 6444;
+const a = 20;
+const b = 21;
 
-if (numberOne > numberTwo) {
-    console.log(numberOne);
-} else if (numberTwo > numberOne) {
-    console.log(numberTwo);
-}
+if (a > b) {
+  console.log("'a' é maior que 'b'");
+} else {
+  console.log("'b' é maior que 'a'");
+};
