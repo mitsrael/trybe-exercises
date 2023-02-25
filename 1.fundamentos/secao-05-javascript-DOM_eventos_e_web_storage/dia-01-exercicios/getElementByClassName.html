@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p class="pessoas">Mits</p>
+        <p class="pessoas">Lucas</p>
+        <p class="pessoas">Andressa</p>
+        <p class="pessoas">Marcos</p>
+        <p class="pessoas">Joana</p>
+    </div>
+</body>
+<script>
+        let pessoas = document.getElementsByClassName('pessoas');
+        for (let i = 0; i < pessoas.length; i += 1) {
+            let pessoa = pessoas[i].innerHTML;
+            if (pessoa == 'Mits') {
+                pessoas[i].innerHTML = 'João';
+            }
+        }
+</script>
+</html>
